@@ -1,0 +1,16 @@
+{
+  "name": "sheik-farhan-traditional-medicine-clinic",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Multilingual PWA and clinic operations platform for Sheik Farhan Traditional Medicine Clinic",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "NODE_ENV=development node --watch server.mjs",
+    "test": "node --test",
+    "check": "node --check server.mjs && node --check public/app.js && node --check public/admin.js && node --test"
+  }
+}
